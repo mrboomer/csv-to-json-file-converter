@@ -1,17 +1,18 @@
 'use strict';
 
+const config = require('config');
 const csv = require('csvtojson');
 const jsonfile = require('jsonfile');
 
 const csvPath = './fromCSV';
 const jsonPath = './toJSON';
 
-// Input/Output Filenames
-const csvFile = 'sample.csv'; // CSV filename to convert
-const jsonFile = 'sample.json'; // JSON filename to output
+// Get CSV/JSON Filenames
+const CSV_FILE = config.get('inputCsvFilename');
+const JSON_FILE = config.get('outputJsonFilename');
 
-const csvFilePath = `${csvPath}/${csvFile}`;
-const jsonFilePath = `${jsonPath}/${jsonFile}`;
+const csvFilePath = `${csvPath}/${CSV_FILE}`;
+const jsonFilePath = `${jsonPath}/${JSON_FILE}`;
 
 const jsonOutput = [];
 

@@ -8,7 +8,7 @@ Convert CSV files to JSON files locally.
 
 ## Usage
 
-1. Edit the variables `csvFile` and `jsonFile` in the file `index.js` to match your input/output filenames.
+1. Edit the variables `inputCsvFilename` and `outputJsonFilename` in the file `config/default.json` to match your input/output filenames.
 2. Run `npm start` from the command line.
 3. Retrieve your JSON file in the `toJSON` folder.
 

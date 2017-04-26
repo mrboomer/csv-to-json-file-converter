@@ -9,6 +9,7 @@
   "author": "Daniel Escobedo <daniel@escobedo.io>",
   "license": "MIT",
   "dependencies": {
+    "config": "^1.25.1",
     "csvtojson": "^1.1.4",
     "jsonfile": "^3.0.0"
   }
