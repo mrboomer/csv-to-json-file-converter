@@ -1,0 +1,15 @@
+{
+  "name": "csv-to-json-file-converter",
+  "version": "1.0.0",
+  "description": "CSV to JSON File Converter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Daniel Escobedo <daniel@escobedo.io>",
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson": "^1.1.4",
+    "jsonfile": "^3.0.0"
+  }
+}
